@@ -2,7 +2,7 @@
 팀 프로젝트용
 my sql 사용
 
--- 버스 정보 테이블
+-- 버스 정보 테이블<br>
 create table root.bus_info(
 bus_code varchar(50) primary key, -- 차량 번호
 seat varchar(20) not null, -- 좌석
