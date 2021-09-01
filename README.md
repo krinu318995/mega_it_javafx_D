@@ -7,7 +7,7 @@ create table root.bus_info(<br>
 bus_code varchar(50) primary key, -- 차량 번호(<br>
 seat varchar(20) not null, -- 좌석(<br>
 driver_name varchar(20) not null -- 기사 이름(<br>
-);(<br>
+);<br>
 <br>
 create table root.bus_status((<br>
 status_number int primary key auto_increment, -- 현황 번호(<br>
