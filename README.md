@@ -19,7 +19,7 @@ departure_time date , -- 출발 시간<br>
 arrival_time date, -- 도착 시간<br>
  foreign key(bus_code) references bus_info( bus_code)); -- 버스 정보 테이블의 bus_code를 외래키로 사용할 것임<br>
 <br>
-create table root.dispenser <br>
+create table root.dispenser( <br>
 issuance_number int primary key auto_increment,-- 발행 번호<br>
 bus_code varchar(50) not null, <br>
 price int not null, -- 가격<br>
